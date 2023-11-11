@@ -1,0 +1,45 @@
+body{
+    background-color:beige;
+    margin:2cm;
+    font-family:sans-serif;
+}
+.header{
+    height: 27rem;
+    background-color: rgb(71, 115, 129);
+    background-image: url("../imgs/imagen.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3em;
+    color:rgb(238, 217, 190)
+}
+.header .main-text{
+    padding: 2rem;
+    font-size: 2em;
+    font-weight: 400;
+}
+.header .h1 {
+    font-weight: 400;
+    margin: 2%;
+}
+.main {
+    width: 80%;
+    margin: auto;
+}
+.main td{
+    width: 40%;
+    padding: 2em;
+}
+.main img{
+    max-width: 100%;
+    border: solid 1px #110f0f;
+    border-radius: 3%;
+}
+
+.footer{
+    height: 3em;
+    line-height: 3rem;
+    background-color: rgb(34, 34, 4);
+    color: aliceblue;
+    text-align: center;
+    font-weight: bolder;
+}
